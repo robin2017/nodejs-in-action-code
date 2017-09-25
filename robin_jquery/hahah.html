@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Robin Test</title>
+    <script src="node_modules/jquery/dist/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+//             主函数
+
+            $.post('/resource.json',function(data){
+                console.log(data);
+            });
+
+        })
+    </script>
+</head>
+<body>
+<h1 align="center">hello,robin</h1>
+
+</body>
+</html>
